@@ -74,7 +74,6 @@ def execute_command(cmd):
         text_to_speech("SIR.... HERE WHAT YOU..ASKED...")
         in_cmd = get_speech_input("Whom do you want to message....")
         contacts = {
-                    
                     "Daksh": Daksh,
                     "Deepahshu": Deepahshu
                     }
@@ -95,8 +94,6 @@ def execute_command(cmd):
     elif "rest" in cmd:
         text_to_speech("GOOD DAY SIR....")
         return False
-    
-
 
     else:
         try:
